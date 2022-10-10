@@ -22,4 +22,4 @@ Console.Write(" Координата Z точти B: ");
 double bz = int.Parse(Console.ReadLine());
 
 double result = Math.Sqrt(Math.Pow(bx - ax, 2) + Math.Pow(by - ay, 2) + Math.Pow(bz - az, 2)); //формула вычесления расстояния между точек в пространстве
-Console.WriteLine($"Растояние между точками равно: {Math.Round(result, 3)}");
+Console.WriteLine($"Растояние между точками равно: {Math.Round(result, 2)}"); //(..., 2) - кол-во цифр округления
